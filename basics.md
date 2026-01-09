@@ -1,6 +1,7 @@
 ---
 title: Umbraco Basics
 layout: home
+nav_order: 10
 ---
 
 # Umbraco Basics
@@ -12,26 +13,23 @@ layout: home
 3.  Click **Login**.
     
 
-## Navigating The Backoffice
+## Navigating Sections In The Backoffice
 
 <img src="images/umbraco-backoffice.png" alt="Umbraco Backoffice" style="border:1px solid #CCCCCC;">
 
 ### Content
 
-The Content section contains content nodes that make up the website.
-
-Nodes in Umbraco can display the following content states:
-*   Grayed-out nodes are not published yet.
-*   Nodes that are currently locked using the Public Access feature.
-*   Content nodes that contain a collection of nodes.
+The Content section contains nodes in a tree that make up the website. Each item in the tree is called a content node. Each content node consists of different fields which are defined by the document type (page or block type).
     
 ### Media
 
-The Media section contains the media for the website. You can create folders and upload media files, such as images and PDFs.
+The Media section is used to store assets like images, PDFs, etc. that can be referenced from your content.
 
 ### Settings
 
-The Settings section is where website layout files, content types, and other site-wide settings are managed by administrators.
+The Settings section is where website layout files, content types, and other site-wide settings can be viewed. 
+
+**WARNING:** Any changes made in this section will be completely overwritten the next time code is pushed up so it should only be used to preview what settings are currently in place. 
 
 ### Packages
 
