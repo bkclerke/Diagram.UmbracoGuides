@@ -7,7 +7,7 @@ nav_order: 20
 # Content Management
 
 ## How To Move A Page
-**NOTE:** When moving pages, the Umbraco **Redirect URL Management** dashboard will track the new path and automatically create a redirect if enabled.
+{% include alert_note.html prefix="NOTE:" text="When moving pages, the Umbraco <strong>Redirect URL Management</strong> dashboard will track the new path and automatically create a redirect if enabled." %}
 
 1. From the Content section, right-click on the page and click **Move**.
 1. Alternatively, you can click ••• next to the parent node and select **Do something else** and click **Move**.
@@ -38,14 +38,14 @@ The Recycle Bin is a separate tree list that can be found at the bottom of the s
 In case you wish to restore the node, you can restore them from the Recycle Bin. You also have the option to move nodes out of the Recycle Bin to a new location or empty the Recycle Bin which permanently deletes all the items.
 
 ## How To Delete Nodes
-**IMPORTANT:** This action will result in a 404 for the previous node URL. Please make sure that you check any linked items and create necessary redirects.
+{% include alert_warning.html prefix="IMPORTANT:" text="This action will result in a 404 for the previous node URL. Please make sure that you check any linked items and create necessary redirects." %}
 
 1. Go to **Content**.
-1. Right-click the node you wish to delete and select **Delete**. [View](/images/delete-node-tree-menu.png)
-1. Alternatively, click **Actions** in the top-right corner of the screen and select **Delete**. [View](images/delete-node-action-menu.png)
-1. A window appears next to the section tree confirming if you want to delete the node.
-1. Click **OK**.
-1. A confirmation message appears. Click **OK** to dismiss the confirmation message.
+2. Right-click the node you wish to delete and select **Delete**. [View](/images/delete-node-tree-menu.png)
+3. Alternatively, click **Actions** in the top-right corner of the screen and select **Delete**. [View](images/delete-node-action-menu.png)
+4. A window appears next to the section tree confirming if you want to delete the node.
+5. Click **OK**.
+6. A confirmation message appears. Click **OK** to dismiss the confirmation message.
 
 ## How To Restore Nodes
 1. Right-click the node you wish to restore from the Recycle Bin and select **Restore**. Alternatively, click ••• next to the node in the Recycle Bin and select **Restore**. [View](images/recycle-bin-restore-menu.png)
@@ -59,11 +59,11 @@ When a content node has been restored, it will be in an unpublished state. In or
 ## How To Empty The Recycle Bin
 If you are confident you no longer require any nodes in the Recycle Bin, you can permanently delete it. You can delete nodes one by one or empty the Recycle Bin in one go.
 
-**IMPORTANT:** Deleting nodes from the Recycle Bin is permanent and you will not be able to undo this.
+{% include alert_warning.html prefix="IMPORTANT:" text="Deleting nodes from the Recycle Bin is permanent and you will not be able to undo this." %}
 
 1. Right-click the **Recycle Bin** and select **Empty recycle bin**. Alternatively, click ••• next to the **Recycle Bin** and select **Empty recycle bin**. [View](images/recycle-bin-menu.png)
-1. A window appears next to the section tree confirming if you want to empty the recycle bin.
-1. Click **OK**.
+2. A window appears next to the section tree confirming if you want to empty the recycle bin.
+3. Click **OK**.
 
 ## Saving and Publishing Options
 There are different options for saving and publishing pages. The options vary depending on whether you’re still in the process of editing the page or have completed your edits and wish to publish your changes.
@@ -91,16 +91,16 @@ To publish the node with descendants, follow these steps:
 The Unpublish button allows you to unpublish a page if you do not want a page to be publicly visible and do not want to delete it.
 
 ### How To Unpublish A Page
-**IMPORTANT:** This action will result in a 404 for the previous node URL. Please make sure that you check any linked items and create necessary redirects.
+{% include alert_warning.html prefix="IMPORTANT:" text="This action will result in a 404 for the previous node URL. Please make sure that you check any linked items and create necessary redirects." %}
 
 1. Navigate to the page you want to unpublish.
-1. Select the **arrow** next to the Save and Publish button.
-1. Select **Unpublish**.
+2. Select the **arrow** next to the Save and Publish button.
+3. Select **Unpublish**.
 
 ## Schedule Publishing Options
 The Schedule button allows you to set a time and a date for when your page should be published. With this option, you can continue working on your edits and the site will automatically be published at the time and date it was scheduled to.
-
-**NOTE:** The schedule date time is in your time zone as a content editor.
+ 
+{% include alert_NOTE.html prefix="NOTE:" text="The schedule date time is in your time zone as a content editor." %}
 
 ### How To Set Up Scheduled Publishing
 1. Navigate to the page you want to publish.
