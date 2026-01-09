@@ -33,7 +33,7 @@ A tree is a hierarchical list of items related (and usually restricted) to a spe
 
 You can expand trees by clicking the down arrow to the left of the node or by double-clicking the node.
 
-[Read more about the tree](https://docs.umbraco.com/umbraco-cms/13.latest/extending/section-trees)
+<a href="https://docs.umbraco.com/umbraco-cms/13.latest/extending/section-trees" target="_blank">Read more about the tree</a>
 
 ### Node
 
