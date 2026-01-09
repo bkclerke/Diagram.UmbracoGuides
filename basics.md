@@ -3,42 +3,50 @@ title: Umbraco Basics
 layout: home
 ---
 
-Umbraco Basics
-==============
+# Umbraco Basics
 
-How To Log In To Umbraco
-------------------------
+## How To Log In To Umbraco
 
-1.  Navigate to your website domain name followed by /umbraco/
+1.  Navigate to your website domain name followed by **/umbraco/**
 2.  Enter your **Email** and **Password**.
 3.  Click **Login**.
     
 
-Navigating The Backoffice
--------------------------
-
-### Dashboards
-
-A dashboard is the main view you are presented with when entering a section within the backoffice. It can be used to show valuable information to the users of the system.
+## Navigating The Backoffice
 
 <img src="images/umbraco-backoffice.png" alt="Umbraco Backoffice" style="border:1px solid #CCCCCC;">
 
-### Sections
+### Content
 
-The Section menu is the horizontal menu located on the top of the backoffice.
+The Content section contains content nodes that make up the website.
 
-A section in Umbraco is where you do specific tasks related to that section. For example Content, Media and Users. You can navigate between the different sections of the backoffice by clicking the corresponding icon in the section menu.
+Nodes in Umbraco can display the following content states:
+*   Grayed-out nodes are not published yet.
+*   Nodes that are currently locked using the Public Access feature.
+*   Content nodes that contain a collection of nodes.
+    
+### Media
 
-[Read more about the section menu](https://docs.umbraco.com/umbraco-cms/13.latest/fundamentals/backoffice/sections)
+The Media section contains the media for the website. You can create folders and upload media files, such as images and PDFs.
 
-### Tree
+### Settings
 
-A tree is a hierarchical list of items related (and usually restricted) to a specific concept, like for example content or media.
+The Settings section is where website layout files, content types, and other site-wide settings are managed by administrators.
 
-You can expand trees by clicking the down arrow to the left of the node or by double-clicking the node.
+### Packages
 
-[Read more about the tree](https://docs.umbraco.com/umbraco-cms/13.latest/extending/section-trees)
+In this section, you can browse the different packages available for your Umbraco site. You can also get an overview of all the packages you have installed or created.
 
-### Node
+### Users
 
-A node is an item in a tree. The images and folders in the Media section are shown as nodes in the Media tree, pages and content in the Content tree and so forth.
+The Users section allows administrators to manage user accounts, assign permissions, set user roles, and monitor user activity within the backoffice. It provides control over who can access and modify content, media, and settings in the CMS.
+
+### Members
+
+The Members section allows you to create and manage member profiles, set up member groups, and control member's access to restricted content on the website (if applicable for your website).
+
+### Translation
+
+The Translation section is where various global labels throughout the site are managed.
+
+<a href="https://docs.umbraco.com/umbraco-cms/13.latest/fundamentals/backoffice/sections" target="_blank">Read more about sections</a>
