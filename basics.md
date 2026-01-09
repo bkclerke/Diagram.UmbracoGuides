@@ -18,16 +18,11 @@ layout: home
 
 ### Content
 
-The Content section contains content nodes that make up the website.
-
-Nodes in Umbraco can display the following content states:
-*   Grayed-out nodes are not published yet.
-*   Nodes that are currently locked using the Public Access feature.
-*   Content nodes that contain a collection of nodes.
+The Content section contains nodes in a tree that make up the website. Each item in the tree is called a content node. Each content node consists of different fields which are defined by the document type (page or block type).
     
 ### Media
 
-The Media section contains the media for the website. You can create folders and upload media files, such as images and PDFs.
+The Media section is used to store assets like images, PDFs, etc. that can be referenced from your content.
 
 ### Settings
 
