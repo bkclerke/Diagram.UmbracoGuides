@@ -10,9 +10,7 @@ How To Log In To Umbraco
 ------------------------
 
 1.  Navigate to your website domain name followed by /umbraco/
-    
 2.  Enter your **Email** and **Password**.
-    
 3.  Click **Login**.
     
 
@@ -22,6 +20,8 @@ Navigating The Backoffice
 ### Dashboards
 
 A dashboard is the main view you are presented with when entering a section within the backoffice. It can be used to show valuable information to the users of the system.
+
+![Umbraco Backoffice](images/umbraco-backoffice.png)
 
 ### Sections
 
