@@ -50,7 +50,7 @@ Before uploading an image:
 ---
 ## How To Upload Media
 In the Media section, you can upload media in three ways:
-1.  Drag and drop your files in the main content area of the Media section. **NOTE:** Make sure you have your folder selected first to keep your media organized. <a href="/images/media-upload-section.png" target="_blank">View</a>
+1.  Drag and drop your files in the main content area of the Media section.<p style="border-radius: .125rem; border-left-width: 4px; border-color: #1B70B5; background-color: #EDF7FF; padding: .5rem .5rem .5rem .75rem;" role="alert"><strong>NOTE:</strong>Make sure you have your folder selected first to keep your media organized. <a href="/images/media-upload-section.png" target="_blank">View</a></p>
 2.  Click **+** next to **Media** and choose the media type, enter a name for your media item, and select the **Click to upload** field to choose a file type or drag the file into the upload field to upload the item. <a href="/images/media-create-menu.png" target="_blank">View</a>
 3.  Click the **Create** dropdown and choose the media type, enter a name for your media item, and select the **Click to upload** field to choose a file type or drag the file into the upload field to upload the item. <a href="/images/media-create-action-menu.png" target="_blank">View</a>
 
