@@ -29,14 +29,7 @@ You can further organizing media by its use (block types), size ratios, pages, o
 Media can be moved to the recycle bin in the same way content nodes can. Check out how to use the [Recycle Bin](./content-management.html#recycle-bin).
 
 ---
-## Optimizing Your Media
-It's important to make sure that you optimize your media before you upload it to the Media section.
-
-Optimizing your media consists of:
-1.  Cropping your image to correct dimensions/aspect ratios.
-2.  Compressing your file sizes. **NOTE:** Multiple [free tools](https://imageresizer.com/image-compressor) exist to compress image file sizes.
-3.  Renaming your media file names. Utilize hyphens instead of spaces or other symbols in the file name. This is important for SEO and accessibility.
-
+## How to Optimize Your Media
 One of the biggest and most preventable issues that lead to slow page performance is uncompressed images. 
 
 Before uploading an image:
@@ -52,6 +45,7 @@ Before uploading an image:
 - <a href="https://compresspng.com/" target="_blank">https://compresspng.com/</a>
 - <a href="https://compressjpeg.com/" target="_blank">https://compressjpeg.com/</a>
 - RIOT (Windows app)
+3. Rename your media files so they're clear, friendly, and utilize hyphens instead of spaces or other symbols. This is important for SEO and accessibility.
 
 ---
 ## How To Upload Media
