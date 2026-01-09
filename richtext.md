@@ -16,4 +16,4 @@ Once you have your content pasted in the rich text editor, select all of your te
 Remember to double-check that you don't have any empty paragraph tags after your content. This is common when pasting content into a rich text editor and can lead to unnecessary spacing at the end of your text.
 
 ## How To Apply Basic Formatting
-{% include image_inline.html imageurl="/images/basic-toolbar-formats.png" imagealt="Basic Toolbar Format Options" caption="Basic Toolbar Format Options" %}
+{% include image_inline.html imageurl="images/basic-toolbar-formats.png" imagealt="Basic Toolbar Format Options" caption="Basic Toolbar Format Options" %}
