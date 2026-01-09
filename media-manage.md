@@ -73,7 +73,7 @@ When uploading SVG files to the Media section, it's important to check a few opt
     
 ---
 ## How To Add Alt Text To Media
-**IMPORTANT:** Utilize the <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/" target="_blank">alt decision tree</a> to help determine how to use the alt attribute on images.
+{% include alert_warning.html prefix="IMPORTANT:" text="Utilize the <a href=\"https://www.w3.org/WAI/tutorials/images/decision-tree/\" target=\"_blank\">alt decision tree</a> to help determine how to use the alt attribute on images." %}
 
 ### Adding Alt Text To Media In The Media Section
 1.  Navigate to the media item you wish to add alt text to in the Media section.
