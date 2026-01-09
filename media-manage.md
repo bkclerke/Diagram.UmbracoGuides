@@ -64,7 +64,7 @@ When uploading SVG files to the Media section, it's important to check a few opt
 
 ---
 ## How To Replace Media
-{% include alert_warning.html prefix="IMPORTANT:" text="In order to replace a media item everywhere the original media item is referenced, you will need to make sure you have the same file name and extension for the replacement file. To get the file name and extension, navigate to the [Info tab](/images/media-info-tab.png) of the media item." %}
+{% include alert_warning.html prefix="IMPORTANT:" text="In order to replace a media item everywhere the original media item is referenced, you will need to make sure you have the same file name and extension for the replacement file. To get the file name and extension, navigate to the \[Info tab\](/images/media-info-tab.png) of the media item." %}
 
 1.  Navigate to the media item you wish to replace in the Media section.
 2.  Below the image, click **Clear file(s)**. [View](/images/media-properties.png)
