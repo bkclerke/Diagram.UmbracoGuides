@@ -100,7 +100,7 @@ The Unpublish button allows you to unpublish a page if you do not want a page to
 ## Schedule Publishing Options
 The Schedule button allows you to set a time and a date for when your page should be published. With this option, you can continue working on your edits and the site will automatically be published at the time and date it was scheduled to.
  
-{% include alert_NOTE.html prefix="NOTE:" text="The schedule date time is in your time zone as a content editor." %}
+{% include alert_note.html prefix="NOTE:" text="The schedule date time is in your time zone as a content editor." %}
 
 ### How To Set Up Scheduled Publishing
 1. Navigate to the page you want to publish.
