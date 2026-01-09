@@ -12,7 +12,7 @@ layout: home
 3.  Click **Login**.
     
 
-## Navigating The Backoffice
+## Navigating Sections In The Backoffice
 
 <img src="images/umbraco-backoffice.png" alt="Umbraco Backoffice" style="border:1px solid #CCCCCC;">
 
