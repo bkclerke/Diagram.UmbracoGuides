@@ -26,7 +26,9 @@ The Media section is used to store assets like images, PDFs, etc. that can be re
 
 ### Settings
 
-The Settings section is where website layout files, content types, and other site-wide settings are managed by administrators.
+The Settings section is where website layout files, content types, and other site-wide settings can be viewed. 
+
+**WARNING:** Any changes made in this section will be completely overwritten the next time code is pushed up so it should only be used to preview what settings are currently in place. 
 
 ### Packages
 
