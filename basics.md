@@ -4,10 +4,8 @@ layout: home
 ---
 
 # Umbraco Basics
-==============
 
 ## How To Log In To Umbraco
-------------------------
 
 1.  Navigate to your website domain name followed by **/umbraco/**
 2.  Enter your **Email** and **Password**.
@@ -15,7 +13,6 @@ layout: home
     
 
 ## Navigating The Backoffice
--------------------------
 
 <img src="images/umbraco-backoffice.png" alt="Umbraco Backoffice" style="border:1px solid #CCCCCC;">
 
