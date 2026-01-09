@@ -21,7 +21,7 @@ Navigating The Backoffice
 
 A dashboard is the main view you are presented with when entering a section within the backoffice. It can be used to show valuable information to the users of the system.
 
-![Umbraco Backoffice](images/umbraco-backoffice.png)
+<img src="images/umbraco-backoffice.png" alt="Umbraco Backoffice" style="border:1px solid #CCCCCC;">
 
 ### Sections
 
