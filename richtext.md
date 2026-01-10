@@ -8,12 +8,16 @@ nav_order: 25
 
 The Umbraco Rich Text Editor is an editable field where you, as the editor, can be creative. You select how much you want to do yourself. You can work on text content, format the text, or leave it the way it is.
 
+---
+
 ## How To Paste In External Content
 While pasting content, the original text styles are preserved which can lead to different font faces, sizes, and colors displaying on the website when viewed. To prevent formatting issues, we recommended pasting the content first into a markdown editor such as notepad, then copy and paste it into your rich text editor.
 
 Once you have your content pasted in the rich text editor, select all of your text and click the **Clear formatting** button on the toolbar. This will remove inline styles from your selected content. Once you have done this, you can then add custom formats to your text as needed.
 
 Remember to double-check that you don't have any empty paragraph tags after your content. This is common when pasting content into a rich text editor and can lead to unnecessary spacing at the end of your text.
+
+---
 
 ## How To Apply Basic Formatting
 {% include image_inline.html imageurl="images/basic-toolbar-formats.png" imagealt="Basic Toolbar Format Options" caption="Basic Toolbar Format Options" %}
@@ -23,6 +27,8 @@ Remember to double-check that you don't have any empty paragraph tags after your
 <br />**NOTE:** When hovering over the toolbar options, a tooltip will appear telling you what the option is.
 
 To undo a format, highlight the same text and click the same format to remove it. Alternatively, to remove all formatting, select the **Clear formatting** option.
+
+---
 
 ## Working With Links
 {% include alert_warning.html prefix="IMPORTANT:" text="When entering links, make sure to always use descriptive link text. Visitors using assistive technologies need descriptive link text to understand and navigate your content. For example, it's recommended to avoid using words like \"Click here\", \"Read more\", \"See all\" and instead use more descriptive language such as \"Subscribe to our blog\" or \"View the event schedule\"." %}
@@ -69,6 +75,8 @@ The **Insert/edit Link** button is used to add or update links to internal pages
 1. In the **Target** field, select the checkbox if you want the link to open in a new window or tab.
 1. Click **Submit**.
 
+---
+
 ## Working With Images
 
 {% include alert_note.html prefix="NOTE:" text="Make sure to <a href=\"media-manage.html#how-to-optimize-your-media\">optimize your images</a> before you upload them." %}
@@ -96,6 +104,8 @@ To insert an image from your computer:
 1. Enter an **Alternative Text** for your image.
 1. Click **Select** to add the image.
 
+---
+
 ## How To Insert A Table
 1. Click on the **Table** icon in the editor toolbar and choose the amount of columns and rows through the grid selector.
 1. Enter the table content into the outlined rows and columns.
@@ -109,6 +119,8 @@ To insert an image from your computer:
 
 {% include alert_note.html prefix="NOTE:" text="Tables should only be used to render content that belongs naturally in a grid/spreadsheet or when data with the same set of properties are being compared. Tables should not be used for layout purposes. <a href=\"https://www.wearediagram.com/blog/content-best-practices-tips-to-achieve-a-more-successful-page\" target=\"_blank\">Learn More</a>" %}
 
+---
+
 ## How To Insert Inline Embed Code
 1. Click on the **Insert Block** icon in the editor toolbar and choose **Inline Embed Block**.
 1. Enter the applicable properties:
@@ -116,6 +128,8 @@ To insert an image from your computer:
    2. **Intro Content:** Optional introductory content.
    3. **Embed Code:** External embed code snippet.
 2. Click **Create**.
+
+---
 
 ## How To Assign Custom Formats
 1. Select the text you want to apply the formatting to.
@@ -160,6 +174,8 @@ To insert an image from your computer:
 {% include alert_warning.html prefix="IMPORTANT:" text="Do not skip headings just to attain a better visual appeal. Using headings in the proper hierarchy not only helps with search engine optimization (SEO), but it also ensures that people using screen readers will be able to navigate through a page correctly." %}
 
 The global CSS on a site determines how headings should appear, but headings aren’t just there to make text look pretty. They define a page’s structure and divide the text into different sections so users can easily scan a page and find the information they’re looking for. H1 headings should only be used for the page title, and H2 headings should be used to break up different high-level sections on the page. Then, within each high-level section, H3 and H4 headings are used to separate the content into even further sub-sections.
+
+---
 
 ## How To View The HTML Source Code
 

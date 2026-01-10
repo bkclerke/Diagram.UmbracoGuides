@@ -15,6 +15,7 @@ nav_order: 20
 1. Click **Move**.
 1. A confirmation message appears. Click **OK** to dismiss the confirmation message.
 
+---
 
 ## How To Copy A Page
 Re-use a page or a tree structure you have previously created by copying the parent page and its child pages to a different section within the site structure.
@@ -30,12 +31,16 @@ When you copy a parent page all of its child pages are also copied, by default. 
 1. Click **Copy**.
 1. A confirmation message appears. Click **OK** to dismiss the confirmation message.
 
+---
+
 ## Recycle Bin
 Upon deletion, nodes are moved to the Recycle Bin and are not deleted permanently.
 
 The Recycle Bin is a separate tree list that can be found at the bottom of the section tree view. Clicking the arrow to the left of the Recycle Bin icon will reveal any nodes that have been deleted from the website.
 
 In case you wish to restore the node, you can restore them from the Recycle Bin. You also have the option to move nodes out of the Recycle Bin to a new location or empty the Recycle Bin which permanently deletes all the items.
+
+---
 
 ## How To Delete Nodes
 {% include alert_warning.html prefix="IMPORTANT:" text="This action will result in a 404 for the previous node URL. Please make sure that you check any linked items and create necessary redirects." %}
@@ -47,6 +52,8 @@ In case you wish to restore the node, you can restore them from the Recycle Bin.
 5. Click **OK**.
 6. A confirmation message appears. Click **OK** to dismiss the confirmation message.
 
+---
+
 ## How To Restore Nodes
 1. Right-click the node you wish to restore from the Recycle Bin and select **Restore**. Alternatively, click ••• next to the node in the Recycle Bin and select **Restore**. [View](images/recycle-bin-restore-menu.png)
 1. You can also click **Actions** in the top-right corner of the screen and select **Restore**.
@@ -56,6 +63,8 @@ In case you wish to restore the node, you can restore them from the Recycle Bin.
 
 When a content node has been restored, it will be in an unpublished state. In order to display a restored content page on the website, navigate to the page and click **Save and publish**.
 
+---
+
 ## How To Empty The Recycle Bin
 If you are confident you no longer require any nodes in the Recycle Bin, you can permanently delete it. You can delete nodes one by one or empty the Recycle Bin in one go.
 
@@ -64,6 +73,8 @@ If you are confident you no longer require any nodes in the Recycle Bin, you can
 1. Right-click the **Recycle Bin** and select **Empty recycle bin**. Alternatively, click ••• next to the **Recycle Bin** and select **Empty recycle bin**. [View](images/recycle-bin-menu.png)
 2. A window appears next to the section tree confirming if you want to empty the recycle bin.
 3. Click **OK**.
+
+---
 
 ## Saving and Publishing Options
 There are different options for saving and publishing pages. The options vary depending on whether you’re still in the process of editing the page or have completed your edits and wish to publish your changes.
@@ -87,6 +98,8 @@ To publish the node with descendants, follow these steps:
 1. Select **Publish with descendants**.
 1. Toggle the option to **Include unpublished content items** if you wish to. This option includes all unpublished content items for the selected page and the available linked pages.
 
+---
+
 ## Unpublishing Pages
 The Unpublish button allows you to unpublish a page if you do not want a page to be publicly visible and do not want to delete it.
 
@@ -96,6 +109,8 @@ The Unpublish button allows you to unpublish a page if you do not want a page to
 1. Navigate to the page you want to unpublish.
 2. Select the **arrow** next to the Save and Publish button.
 3. Select **Unpublish**.
+
+---
 
 ## Schedule Publishing Options
 The Schedule button allows you to set a time and a date for when your page should be published. With this option, you can continue working on your edits and the site will automatically be published at the time and date it was scheduled to.
@@ -117,6 +132,7 @@ The Schedule button allows you to set a time and a date for when your page shoul
 1. In the **Scheduled Publishing** window, set the date and time in the **Unpublish** at field.
 1. Select **Schedule**.
 
+---
 
 ## Audit Trail
 Within the **Info** content app for pages you can find the **Audit Trail** in the **History** section. Here, you can get a quick overview of the actions performed on that node, by whom, when and any additional comments.
@@ -127,6 +143,8 @@ The Audit Trail is useful to find out who made changes on a certain date.
 1. Go to the **Content** section.
 1. Navigate to the page you wish to see the audit trail.
 1. Go to the **Info** tab.
+
+---
 
 ## Version Management
 Umbraco allows you to work with multiple versions of the same page. All previously saved pages are stored in a version history list.
