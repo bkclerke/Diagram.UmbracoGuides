@@ -135,39 +135,27 @@ To insert an image from your computer:
 1. Select the text you want to apply the formatting to.
 1. Click the Formats dropdown and select a format.
 
-[comment]: TODO: Update table examples and custom format options
-
-| Option                        | Description                                                                                            | Example / Notes                  |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------- |
-| Heading 2                     | Sets the selected text to an H2.                                                                       |                                  |
-| Heading 3                     | Sets the selected text to an H3.                                                                       |                                  |
-| Heading 4                     | Sets the selected text to an H4.                                                                       |                                  |
-| Heading 5                     | Sets the selected text to an H5.                                                                       |                                  |
-| Heading 2 Style               | Used to style regular non-heading text to look like an H2.                                             | Example                          |
-| Heading 3 Style               | Used to style regular non-heading text to look like an H3.                                             | Example                          |
-| Heading 4 Style               | Used to style regular non-heading text to look like an H4.                                             | Example                          |
-| Heading 5 Style               | Used to style regular non-heading text to look like an H5.                                             | Example                          |
-| Footer Header                 | Used to style headings in the footer area. **Note:** Only applies in the site settings rich text area. |                                  |
-| Paragraph Large               | Increases the font size from standard to large. Typically used to introduce a page or section.         | Example                          |
-| Paragraph Small               | Decreases the font size from standard to small. Typically used for disclaimer or supplemental text.    | Example                          |
-| Blockquote                    | Used to format text as a pull quote.                                                                   | “This is an example blockquote.” |
-| Ruled List                    | Styles a list by removing bullets/numbers and adding ruled lines between items.                        | Ruled list example               |
-| Agenda List                   | Styles a list (intended for agendas) by adding ruled lines between items.                              | Agenda list example              |
-| Alert Text                    | Highlights text in a warning alert style.                                                              | Example alert text               |
-| Info Text                     | Highlights text in an informational alert style.                                                       | Example info text                |
-| Confirmation Text             | Highlights text in a confirmation alert style.                                                         | Example confirmation text        |
-| Error Text                    | Highlights text in an error alert style.                                                               | Example error text               |
-| Vertical Align Top            | Sets vertical alignment of table content to the top.                                                   |                                  |
-| Vertical Align Middle         | Sets vertical alignment of table content to the middle.                                                |                                  |
-| Vertical Align Bottom         | Sets vertical alignment of table content to the bottom.                                                |                                  |
-| Primary Button                | Used for primary actions like submitting forms or signing up.                                          | Primary button link              |
-| Primary Button (Full Width)   | Displays the primary button at full width.                                                             | Full-width primary button        |
-| Secondary Button              | Used for secondary actions or related links.                                                           | Secondary button link            |
-| Secondary Button (Full Width) | Displays the secondary button at full width.                                                           | Full-width secondary button      |
-| Button Row                    | Displays multiple buttons in a single horizontal row when applied to a list.                           | View example                     |
-| Float Right                   | Aligns an image to the right with content flowing on the left.                                         | View example                     |
-| Float Left                    | Aligns an image to the left with content flowing on the right.                                         | View example                     |
-| Clearfix                      | Clears left and right floats for the content that follows.                                             |                                  |
+| Option                        | Description                                                                                            |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Heading 2                     | Sets the selected text to an H2.                                                                       |
+| Heading 3                     | Sets the selected text to an H3.                                                                       |
+| Heading 4                     | Sets the selected text to an H4.                                                                       |
+| Heading 5                     | Sets the selected text to an H5.                                                                       |
+| Heading 2 Style               | Used to style regular non-heading text to look like an H2.                                             |
+| Heading 3 Style               | Used to style regular non-heading text to look like an H3.                                             |
+| Heading 4 Style               | Used to style regular non-heading text to look like an H4.                                             |
+| Heading 5 Style               | Used to style regular non-heading text to look like an H5.                                             |
+| Paragraph Large               | Increases the font size from standard to large. Typically used to introduce a page or section.         |
+| Paragraph Small               | Decreases the font size from standard to small. Typically used for disclaimer or supplemental text.    |
+| Alert Text                    | Highlights text in a warning alert style.                                                              |
+| Info Text                     | Highlights text in an informational alert style.                                                       |
+| Confirmation Text             | Highlights text in a confirmation alert style.                                                         |
+| Error Text                    | Highlights text in an error alert style.                                                               |
+| Primary Button                | Used for primary actions like submitting forms or signing up.                                          |
+| Secondary Button              | Used for secondary actions or related links.                                                           |
+| Float Right                   | Aligns an image to the right with content flowing on the left.                                         |
+| Float Left                    | Aligns an image to the left with content flowing on the right.                                         |
+| Clearfix                      | Clears left and right floats for the content that follows.                                             |
 
 ### Format Headings Appropriately
 
