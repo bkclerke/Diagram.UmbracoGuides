@@ -41,7 +41,7 @@ In case you wish to restore the node, you can restore them from the Recycle Bin.
 {% include alert_warning.html prefix="IMPORTANT:" text="This action will result in a 404 for the previous node URL. Please make sure that you check any linked items and create necessary redirects." %}
 
 1. Go to **Content**.
-2. Right-click the node you wish to delete and select **Delete**. [View](/images/delete-node-tree-menu.png)
+2. Right-click the node you wish to delete and select **Delete**. [View](images/delete-node-tree-menu.png)
 3. Alternatively, click **Actions** in the top-right corner of the screen and select **Delete**. [View](images/delete-node-action-menu.png)
 4. A window appears next to the section tree confirming if you want to delete the node.
 5. Click **OK**.
