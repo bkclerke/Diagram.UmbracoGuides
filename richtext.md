@@ -71,9 +71,7 @@ The **Insert/edit Link** button is used to add or update links to internal pages
 
 ## Working With Images
 
-[comment]: TODO: hyperlink the optimize your images
-
-{% include alert_note.html prefix="NOTE:" text="Make sure to <a href=\"#\">optimize your images</a> before you upload them." %}
+{% include alert_note.html prefix="NOTE:" text="Make sure to <a href=\"media-manage.html#how-to-optimize-your-media\">optimize your images</a> before you upload them." %}
 
 {% include alert_warning.html prefix="IMPORTANT:" text="Update the <strong>Alternative text</strong>, which is used by screen readers to describe the image to users with disabilities. By default, the image's \"name\" is set as the image description, which is typically something useless like \"IMG_9012.png.\" It's very important that the alt text accurately describes what's in the image and doesn't just repeat the file name. All non-decorative images need to have helpful image descriptions/alt text - this is a <a href=\"https://www.w3.org/TR/WCAG21/#text-alternatives\" taget=\"_blank\">WCAG 2.1 accessibility</a> standard." %}
 
