@@ -15,7 +15,7 @@ You can further organizing media by its use (block types), size ratios, pages, o
 
 ### How To Create Media Folders
 1.  To create a media folder, go to the Media section and click **+** next to the parent node you want to create a folder beneath.
-2.  From the list of available media types, select **Folder**. [View](/Diagram.UmbracoGuides/images/media-create-action-menu.png)
+2.  From the list of available media types, select **Folder**. [View](images/media-create-action-menu.png)
 3.  Enter the folder name.
 4.  Click **Save**.
 
