@@ -8,7 +8,7 @@ nav_order: 12
 The Media section stores all the media that is uploaded and used on your website. You can view all your stored media in hierarchical order within the media tree.
 
 ---
-## Organize Your Media
+## How to Organize Media With Folders
 Folders help organize the Media section and keep similar media items in a logical structure. We recommend using folders to organize your media items by site and media type.
 
 You can further organizing media by its use (block types), size ratios, pages, or whatever else makes it easier for you to find your media.
@@ -25,10 +25,12 @@ You can further organizing media by its use (block types), size ratios, pages, o
 3.  Click **Save**.
 
 ---
+
 ## How To Delete Media
 Media can be moved to the recycle bin in the same way content nodes can. Check out how to use the [Recycle Bin](./content-management.html#recycle-bin).
 
 ---
+
 ## How to Optimize Your Media
 One of the biggest and most preventable issues that lead to slow page performance is uncompressed images. 
 
@@ -48,6 +50,7 @@ Before uploading an image:
 3. Rename your media files so they're clear, friendly, and utilize hyphens instead of spaces or other symbols. This is important for SEO and accessibility.
 
 ---
+
 ## How To Upload Media
 In the Media section, you can upload media in three ways:
 1.  Drag and drop your files in the main content area of the Media section. [View](images/media-upload-section.png)
@@ -56,13 +59,15 @@ In the Media section, you can upload media in three ways:
 2.  Click the **Create** dropdown and choose the media type, enter a name for your media item, and select the **Click to upload** field to choose a file type or drag the file into the upload field to upload the item. [View](images/media-create-action-menu.png)
 
 ---
-## Optimizing Your SVG Files
+
+## How to Optimize SVG Files
 When uploading SVG files to the Media section, it's important to check a few options in the SVG file itself to confirm that the SVG graphic will display correctly on the website.
 1.  If your SVG file is used for decoration, ensure that the tag has the **role="presentation"** attribute added. This tells screen readers not to read the contents of this graphic.
 2.  If your SVG file is used as meaningful content, ensure that the tag has a **title=""** attribute with a meaningful description.
 3.  Ensure that your SVG file tag does not have an inline fill style on it. This will ensure that your SVG file will display correctly on the site.
 
 ---
+
 ## How To Replace Media
 {% include alert_warning.html prefix="IMPORTANT:" text="In order to replace a media item everywhere the original media item is referenced, you will need to make sure you have the same file name and extension for the replacement file. To get the file name and extension, navigate to the <a href=\"images/media-info-tab.png\">Info tab</a> of the media item." %}
 
@@ -72,6 +77,7 @@ When uploading SVG files to the Media section, it's important to check a few opt
 4.  Click **Save**.
     
 ---
+
 ## How To Add Alt Text To Media
 {% include alert_warning.html prefix="IMPORTANT:" text="Utilize the <a href=\"https://www.w3.org/WAI/tutorials/images/decision-tree/\" target=\"_blank\">alt decision tree</a> to help determine how to use the alt attribute on images." %}
 
@@ -82,12 +88,12 @@ When uploading SVG files to the Media section, it's important to check a few opt
 
 ### Adding Alt Text To Media In The Rich Text Editor
 1.  Within the rich text editor, click the **Media Picker** icon on the toolbar.
-2.  Navigate to the media item you wish to add to your content.
-3.  Click on the image.
+2.  Navigate to the media item you wish to add to your content, select it, and click **Choose**.
 4.  Add your alt text into the **Alternative text (optional)** field. [View](images/media-rich-text-editor.png)
 5.  Click **Save**.
 
 ---
+
 ## How To Get The Direct Link & View Media Details
 1.  Navigate to the media item you wish to view properties for in the Media section.
 2.  Below the file, additional details are listed (width, height, file size, etc.). [View](images/media-properties.png)
