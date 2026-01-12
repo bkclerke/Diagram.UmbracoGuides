@@ -12,14 +12,14 @@ The Umbraco Rich Text Editor is an editable field where you, as the editor, can 
 ## How To Paste In External Content
 While pasting content, the original text styles are preserved which can lead to different font faces, sizes, and colors displaying on the website when viewed. To prevent formatting issues, we recommended pasting the content first into a markdown editor such as notepad, then copy and paste it into your rich text editor.
 
-Once you have your content pasted in the rich text editor, select all of your text and click the **Clear formatting** button on the toolbar. This will remove inline styles from your selected content. Once you have done this, you can then add custom formats to your text as needed.
+Once you have your content pasted in the rich text editor, select all of your text and click the **Clear Formatting** button on the toolbar. This will remove inline styles from your selected content. Once you have done this, you can then add custom formats to your text as needed.
 
 Remember to double-check that you don't have any empty paragraph tags after your content. This is common when pasting content into a rich text editor and can lead to unnecessary spacing at the end of your text.
 
 ---
 
 ## How To Apply Basic Formatting
-{% include image_inline.html imageurl="images/basic-toolbar-formats.png" imagealt="Basic Toolbar Format Options" caption="Basic Toolbar Format Options" %}
+{% include image_inline.html imageurl="images/basic-toolbar-formats.png" imagealt="Basic Toolbar Format Options" %}
 
 1. Select the text you want to apply formats to.
 1. Click the format button to apply the formatting.
@@ -79,7 +79,7 @@ The **Insert/edit Link** button is used to add or update links to internal pages
 ## Working With Images
 {% include alert_note.html prefix="NOTE:" text="Make sure to <a href=\"media-manage.html#how-to-optimize-your-media\">optimize your images</a> before you upload them." %}
 
-{% include alert_warning.html prefix="IMPORTANT:" text="Update the <strong>Alternative text</strong>, which is used by screen readers to describe the image to users with disabilities. By default, the image's \"name\" is set as the image description, which is typically something useless like \"IMG_9012.png.\" It's very important that the alt text accurately describes what's in the image and doesn't just repeat the file name. All non-decorative images need to have helpful image descriptions/alt text - this is a <a href=\"https://www.w3.org/TR/WCAG21/#text-alternatives\" taget=\"_blank\">WCAG 2.1 accessibility</a> standard." %}
+{% include alert_warning.html prefix="IMPORTANT:" text="Update the <strong>Alternative text</strong>, which is used by screen readers to describe the image to users with disabilities. By default, the image's \"name\" is set as the image description, which is typically something useless like \"IMG_9012.png.\" It's very important that the alt text accurately describes what's in the image and doesn't just repeat the file name. All non-decorative images need to have helpful image descriptions/alt text - this is a <a href=\"https://www.w3.org/TR/WCAG21/#text-alternatives\" target=\"_blank\">WCAG 2.1 accessibility</a> standard." %}
 
 ### How To Insert An Image From The Media Section
 1. Place the cursor in the editor where you want to insert your image.
@@ -90,7 +90,7 @@ The **Insert/edit Link** button is used to add or update links to internal pages
 **IMPORTANT:** Utilize the <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/" target="_blank">alt decision tree</a> to help determine when to use the alt attribute on images.
 1. Click **Submit** to insert the image.
 
-### How To Insert A New Image From Your Computer
+### How To Upload A New Image
 You can upload images directly from your computer into the rich text editor. These images will be stored in the Umbraco Media library.
 
 1. Place the cursor in the editor where you want to insert your image.
@@ -155,7 +155,7 @@ You can upload images directly from your computer into the rich text editor. The
 
 ---
 
-## Format Headings Appropriately
+## How To Format Headings Appropriately
 {% include alert_warning.html prefix="IMPORTANT:" text="Do not skip headings just to attain a better visual appeal. Using headings in the proper hierarchy not only helps with search engine optimization (SEO), but it also ensures that people using screen readers will be able to navigate through a page correctly." %}
 
 The global CSS on a site determines how headings should appear, but headings aren’t just there to make text look pretty. They define a page’s structure and divide the text into different sections so users can easily scan a page and find the information they’re looking for. H1 headings should only be used for the page title, and H2 headings should be used to break up different high-level sections on the page. Then, within each high-level section, H3 and H4 headings are used to separate the content into even further sub-sections.
