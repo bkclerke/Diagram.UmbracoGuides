@@ -38,7 +38,7 @@ Content templates can only be edited or deleted by a system-level administrator 
 
 ---
 
-## How To Create For New Global Block
+## How To Create A New Global Block
 Global blocks are best used for content that will be reused across multiple places on the website. 
 
 1. Navigate to the **Global Blocks** folder in the content tree.
@@ -46,7 +46,7 @@ Global blocks are best used for content that will be reused across multiple plac
 
 ---
 
-## Best Practices for Creating Content
+## Best Practices For Creating Content
 
 ### Organize Your Content
 It is important to keep your content tree organized with your content pages. This structure will automatically generate your main navigation and section navigation menus throughout the website, as well as determine what the URL structure will be for each page.
