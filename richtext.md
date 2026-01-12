@@ -5,7 +5,6 @@ nav_order: 25
 ---
 
 # Using the Rich Text Editor
-
 The Umbraco Rich Text Editor is an editable field where you, as the editor, can be creative. You select how much you want to do yourself. You can work on text content, format the text, or leave it the way it is.
 
 ---
@@ -33,44 +32,44 @@ To undo a format, highlight the same text and click the same format to remove it
 ## Working With Links
 {% include alert_warning.html prefix="IMPORTANT:" text="When entering links, make sure to always use descriptive link text. Visitors using assistive technologies need descriptive link text to understand and navigate your content. For example, it's recommended to avoid using words like \"Click here\", \"Read more\", \"See all\" and instead use more descriptive language such as \"Subscribe to our blog\" or \"View the event schedule\"." %}
 
-The **Insert/edit Link** button is used to add or update links to internal pages, external pages, media files, email links, and anchors. To insert different types of hyperlinks, follow these steps:
+The **Insert/edit Link** button is used to add or update links to internal pages, external pages, media files, email links, and anchors. To insert different types of hyperlinks, follow the steps below.
 
 ### How To Link To A Page On Another Website
-1. Select the text for the hyperlink.
-1. Click the **Insert Link** button. The **Select Link** tree 1. opens on the right-side of the editor.
+1. Highlight the text you want to hyperlink.
+1. Click the **Insert Link** button.
 1. In the **Link** field, enter the URL of the web page you wish to link to.
 1. In the **Link title** field, enter the text that will be shown as a pointer to the link. This is an important information for everyone reading the website with different accessibility aids.
 1. In the **Target** field, select the checkbox if you want the link to open in a new window or tab.
 1. Click **Submit**.
 
 ### How To Link To A Page In Umbraco
-1. Select the text for the hyperlink.
-1. Click the **Insert Link** button. The **Select Link** tree opens on the right-side of the editor.
+1. Highlight the text you want to hyperlink.
+1. Click the **Insert Link** button.
 1. Select a page from the **Link to page** tree. The selection will populate the **Link** and **Link Title** fields.
 1. In the **Link Title** field, enter the text that will be shown as a pointer to the link. By default, the name of the selected page will be populated.
 1. In the **Target** field, select the checkbox if you want the link to open in a new window or tab.
 1. Click **Submit**.
 
 ### How To Link To A Media File In Umbraco
-1. Select the text for the hyperlink.
-1. Click the **Insert Link** button. The **Select Link** tree opens on the right-side of the editor.
-1. Select the **Select media** button. The **Select media** tree opens where you can select the media item.
-1. Click **Select**. The selection will populate the **Link** and **Link Title** fields.
+1. Highlight the text you want to hyperlink.
+1. Click the **Insert Link** button.
+1. Select the **Select media** button.
+1. Click **Select** on the media item you want to link to. The selection will populate the **Link** and **Link Title** fields.
 1. In the **Target** field, select the checkbox if you want the link to open in a new window or tab.
 1. Click **Submit**.
 
 ### How To Link To An Email Address
-1. Select the text for the hyperlink.
-1. Click the **Insert Link** button. The **Select Link** tree opens on the right-side of the editor.
-1. In the **Link** field, enter the text mailto: followed by the email address you wish to link.
+1. Highlight the text you want to hyperlink.
+1. Click the **Insert Link** button.
+1. In the **Link** field, enter the text **mailto**: followed by the email address you wish to link.
 1. In the **Link Title** field, enter the text that will be shown as a pointer to the link.
 1. In the **Target** field, select the checkbox if you want the link to open in a new window or tab.
 1. Click **Submit**.
 
 ### How To Link To A Telephone Number
-1. Select the text for the hyperlink.
-1. Click the **Insert Link** button. The **Select Link** tree opens on the right-side of the editor.
-1. In the **Link** field, enter the text tel: followed by the phone number you wish to link. Your telephone link should be formatted with hyphens, for example, your link will look like tel:800-222-3333.
+1. Highlight the text you want to hyperlink.
+1. Click the **Insert Link** button.
+1. In the **Link** field, enter the text **tel:** followed by the phone number you wish to link. Your telephone link should be formatted with hyphens, for example: tel:800-222-3333.
 1. In the **Link Title** field, enter the text that will be shown as a pointer to the link.
 1. In the **Target** field, select the checkbox if you want the link to open in a new window or tab.
 1. Click **Submit**.
@@ -78,37 +77,38 @@ The **Insert/edit Link** button is used to add or update links to internal pages
 ---
 
 ## Working With Images
-
 {% include alert_note.html prefix="NOTE:" text="Make sure to <a href=\"media-manage.html#how-to-optimize-your-media\">optimize your images</a> before you upload them." %}
 
 {% include alert_warning.html prefix="IMPORTANT:" text="Update the <strong>Alternative text</strong>, which is used by screen readers to describe the image to users with disabilities. By default, the image's \"name\" is set as the image description, which is typically something useless like \"IMG_9012.png.\" It's very important that the alt text accurately describes what's in the image and doesn't just repeat the file name. All non-decorative images need to have helpful image descriptions/alt text - this is a <a href=\"https://www.w3.org/TR/WCAG21/#text-alternatives\" taget=\"_blank\">WCAG 2.1 accessibility</a> standard." %}
 
 ### How To Insert An Image From The Media Section
 1. Place the cursor in the editor where you want to insert your image.
-1. Click the **Media Picker** button on the toolbar. The **Select Media** tree opens on the right-side of the editor.
-1. Select the folder in which your image is stored.
-1. Click the thumbnail of the image. The **Edit selected media** tree opens.
-1. Enter an **Alternative Text** for your image.
-1. Click **Select** to add the image.
+1. Click the **Media Picker** button in the toolbar.
+1. Navigate through the Media library to locate where your image is stored.
+1. Select the image and click **Choose**.
+1. If applicable, enter **Alternative Text** for your image.<br/>
+**IMPORTANT:** Utilize the <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/" target="_blank">alt decision tree</a> to help determine when to use the alt attribute on images.
+1. Click **Submit** to insert the image.
 
-### How To Insert An Image From Your Computer
-You can upload images directly from your local directory in the rich text editor. These images will be stored in the Umbraco media library. Ensure that the image is placed in the correct location within the library.
+### How To Insert A New Image From Your Computer
+You can upload images directly from your computer into the rich text editor. These images will be stored in the Umbraco Media library.
 
-You can also create folders in the media library by clicking the + icon next to Media/.
-
-To insert an image from your computer:
 1. Place the cursor in the editor where you want to insert your image.
-1. Click the **Media Picker** button. The **Select Media** tree opens on the right-side of the editor.
-1. Click the **Upload** button in the top-right corner of the tree.
-1. Browse to the directory, select the image, and click **Open**.
-1. Enter an **Alternative Text** for your image.
-1. Click **Select** to add the image.
+1. Click the **Media Picker** button in the toolbar.
+2. Choose which folder you want the image to be uploaded in and click **Upload**.
+**TIP:** You can also create a new folder by clicking the **+** icon next to the Media breadcrumb trail.
+1. Select the file you want to upload from your computer.
+1. With the newly-uploaded image selected, click **Choose**.
+1. If applicable, enter **Alternative Text** for your image.<br/>
+**IMPORTANT:** Utilize the <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/" target="_blank">alt decision tree</a> to help determine when to use the alt attribute on images.
+1. Click **Select** to insert the image.
 
 ---
 
 ## How To Insert A Table
 1. Click on the **Table** icon in the editor toolbar and choose the amount of columns and rows through the grid selector.
 1. Enter the table content into the outlined rows and columns.
+2. Format the header row as a header row so it displays and functions correctly (details below).
 
 ### How To Format The Header Row
 1. Highlight the first row of the table.
@@ -117,7 +117,7 @@ To insert an image from your computer:
 1. From the **Table** dropdown in the top toolbar choose **Cell > Cell Properties**.
 1. Change the **Row Type** to **Header** and then click **OK**.
 
-{% include alert_note.html prefix="NOTE:" text="Tables should only be used to render content that belongs naturally in a grid/spreadsheet or when data with the same set of properties are being compared. Tables should not be used for layout purposes. <a href=\"https://www.wearediagram.com/blog/content-best-practices-tips-to-achieve-a-more-successful-page\" target=\"_blank\">Learn More</a>" %}
+{% include alert_note.html prefix="NOTE:" text="Tables should only be used to render content that belongs naturally in a grid/spreadsheet or when data with the same set of properties are being compared. Tables should not be used for layout purposes. <a href=\"https://www.wearediagram.com/blog/content-best-practices-tips-to-achieve-a-more-successful-page\" target=\"_blank\">Learn more about table best practices</a>" %}
 
 ---
 
@@ -132,15 +132,11 @@ To insert an image from your computer:
 ---
 
 ## How To Assign Custom Formats
-1. Select the text you want to apply the formatting to.
+1. Select/highlight the content you want to apply the formatting to.
 1. Click the Formats dropdown and select a format.
 
 | Option                        | Description                                                                                            |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Heading 2                     | Sets the selected text to an H2.                                                                       |
-| Heading 3                     | Sets the selected text to an H3.                                                                       |
-| Heading 4                     | Sets the selected text to an H4.                                                                       |
-| Heading 5                     | Sets the selected text to an H5.                                                                       |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------ |                                 
 | Heading 2 Style               | Used to style regular non-heading text to look like an H2.                                             |
 | Heading 3 Style               | Used to style regular non-heading text to look like an H3.                                             |
 | Heading 4 Style               | Used to style regular non-heading text to look like an H4.                                             |
@@ -157,8 +153,9 @@ To insert an image from your computer:
 | Float Left                    | Aligns an image to the left with content flowing on the right.                                         |
 | Clearfix                      | Clears left and right floats for the content that follows.                                             |
 
-### Format Headings Appropriately
+---
 
+## Format Headings Appropriately
 {% include alert_warning.html prefix="IMPORTANT:" text="Do not skip headings just to attain a better visual appeal. Using headings in the proper hierarchy not only helps with search engine optimization (SEO), but it also ensures that people using screen readers will be able to navigate through a page correctly." %}
 
 The global CSS on a site determines how headings should appear, but headings aren’t just there to make text look pretty. They define a page’s structure and divide the text into different sections so users can easily scan a page and find the information they’re looking for. H1 headings should only be used for the page title, and H2 headings should be used to break up different high-level sections on the page. Then, within each high-level section, H3 and H4 headings are used to separate the content into even further sub-sections.
@@ -166,5 +163,4 @@ The global CSS on a site determines how headings should appear, but headings are
 ---
 
 ## How To View The HTML Source Code
-
 To switch out of the WYSIWYG (what you see is what you get) editing mode and view the HTML code, click on the **View Source Code** icon in the toolbar. If any changes are made, click the **Submit** button before exiting out of the modal window. 
