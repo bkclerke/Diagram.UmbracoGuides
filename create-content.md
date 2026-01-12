@@ -16,7 +16,7 @@ In the **Content** section of the backoffice, a new page can be created in three
 --- 
 
 ## Document Blueprints (Content Templates)
-Document blueprints allow content editors to create a new node with certain properties already pre-populated based on the document type and template selected.
+Document blueprints allow content editors to create a new node with certain properties pre-populated based on the document type and template selected.
 
 ### How To Create A Document Blueprint
 1. Select a node in the content tree that you want to use as a baseline template.<br/>
@@ -28,7 +28,7 @@ Document blueprints allow content editors to create a new node with certain prop
 ### How To Use A Document Blueprint
 Once you have created a document blueprint, you can use the template as a baseline to create new content nodes.
 
-1. Click **+** to create a new node and select the applicable document type.
+1. Click **+** to create a new node and select the document type.
 2. Assuming the selected document type has at least document blueprint set up, it will ask you if you want to create a blank node or use an existing document blueprint.
 
 When no document blueprints exist, a new blank node will be created by default.
