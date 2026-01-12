@@ -15,7 +15,7 @@ In the **Content** section of the backoffice, a new page can be created in three
 
 --- 
 
-## Document Blueprints/Content Templates
+## Document Blueprints (Content Templates)
 Document blueprints allow content editors to create a new node with certain properties already pre-populated based on the document type and template selected.
 
 ### How To Create A Document Blueprint
