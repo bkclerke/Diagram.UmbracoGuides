@@ -5,7 +5,7 @@ nav_order: 25
 ---
 
 # Using the Rich Text Editor
-The Umbraco Rich Text Editor is an editable field where you, as the editor, can be creative. You select how much you want to do yourself. You can work on text content, format the text, or leave it the way it is.
+The Umbraco rich text editor is an editable field where you as the editor have creative freedom. You can determine how much you want to customize yourself or leave as-is with default formatting.
 
 ---
 
