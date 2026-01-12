@@ -6,8 +6,6 @@ nav_order: 10
 
 # Umbraco Basics
 
----
-
 ## How To Log In To Umbraco
 
 1.  Navigate to your website domain name followed by **/umbraco/**
