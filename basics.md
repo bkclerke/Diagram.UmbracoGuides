@@ -6,45 +6,39 @@ nav_order: 10
 
 # Umbraco Basics
 
+---
+
 ## How To Log In To Umbraco
 
 1.  Navigate to your website domain name followed by **/umbraco/**
 2.  Enter your **Email** and **Password**.
 3.  Click **Login**.
     
+---
 
 ## Navigating Sections In The Backoffice
-
 <img src="images/umbraco-backoffice.png" alt="Umbraco Backoffice" style="border:1px solid #CCCCCC;">
 
 ### Content
-
 The Content section contains nodes in a tree that make up the website. Each item in the tree is called a content node. Each content node consists of different fields which are defined by the document type (page or block type).
     
 ### Media
-
 The Media section is used to store assets like images, PDFs, etc. that can be referenced from your content.
 
 ### Settings
-
 The Settings section is where website layout files, content types, and other site-wide settings can be viewed. 
-
-**WARNING:** Any changes made in this section will be completely overwritten the next time code is pushed up so it should only be used to preview what settings are currently in place. 
+{% include alert_warning.html prefix="WARNING:" text="Any changes made in this section will be completely overwritten the next time code is pushed up so it should only be used to preview what settings are currently in place." %}
 
 ### Packages
-
 In this section, you can browse the different packages available for your Umbraco site. You can also get an overview of all the packages you have installed or created.
 
 ### Users
-
 The Users section allows administrators to manage user accounts, assign permissions, set user roles, and monitor user activity within the backoffice. It provides control over who can access and modify content, media, and settings in the CMS.
 
 ### Members
-
 The Members section allows you to create and manage member profiles, set up member groups, and control member's access to restricted content on the website (if applicable for your website).
 
 ### Translation
-
 The Translation section is where various global labels throughout the site are managed.
 
 <a href="https://docs.umbraco.com/umbraco-cms/13.latest/fundamentals/backoffice/sections" target="_blank">Read more about sections</a>
