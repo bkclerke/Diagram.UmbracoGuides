@@ -6,30 +6,25 @@ nav_order: 20
 
 # Content Management
 
-## How To Move A Page
-{% include alert_note.html prefix="NOTE:" text="When moving pages, the Umbraco <strong>Redirect URL Management</strong> dashboard will track the new path and automatically create a redirect if enabled." %}
+## How To Move A Node
+{% include alert_note.html prefix="NOTE:" text="When moving pages, the Umbraco <strong>Redirect URL Management</strong> dashboard tracks the old and new paths and automatically creates a redirect." %}
 
-1. From the Content section, right-click on the page and click **Move**.
-1. Alternatively, you can click ••• next to the parent node and select **Do something else** and click **Move**.
-1. A window appears next to the section tree. Here, you can choose where you want to move the page in the tree structure.
-1. Click **Move**.
-1. A confirmation message appears. Click **OK** to dismiss the confirmation message.
+1. In the Content section, click ••• next to the node and select **Move To**.
+1. Choose where you want to move the page to in the tree structure.
+1. Click **Choose** and a confirmation message will appear.
 
 ---
 
-## How To Copy A Page
-Re-use a page or a tree structure you have previously created by copying the parent page and its child pages to a different section within the site structure.
+## How To Copy A Node
+Re-use a node or a tree structure you have previously created by duplicating the parent node and its children to a different section within the site structure.
 
-When you copy a parent page all of its child pages are also copied, by default. You can choose if you want to copy the child pages or not. You can also choose whether the links should be automatically updated or continue to link to the original pages.
+When you copy a parent node, all of its children pages are also copied by default. You can choose if you want to copy the child pages or not. You can also choose whether the links should be automatically updated or continue to link to the original pages.
 
-1. Go to the Content section.
-1. Right-click on the page and click **Copy**.
-1. Alternatively, you can click ••• next to the parent node and select **Do something else** and click **Copy**.
-1. A window appears next to the section tree. Here, you can choose where you want to copy the page in the tree structure.
+1. In the Content section, click ••• next to the node and select **Duplicate To**.
+1. Choose where you want to copy the page to in the tree structure.
 1. Toggle **Relate to original** if you want to keep the links linked to the original page.
-1. Toggle **Include descendants** if you want to copy the child pages along with the parent page.
-1. Click **Copy**.
-1. A confirmation message appears. Click **OK** to dismiss the confirmation message.
+1. Toggle **Include descendants** if you want to copy the child nodes along with the parent node.
+1. Click **Duplicate** and a confirmation message will appear. Your newly-duplicated node will be in an unpublished state by default.
 
 ---
 
@@ -43,123 +38,105 @@ In case you wish to restore the node, you can restore them from the Recycle Bin.
 ---
 
 ## How To Delete Nodes
-{% include alert_warning.html prefix="IMPORTANT:" text="This action will result in a 404 for the previous node URL. Please make sure that you check any linked items and create necessary redirects." %}
+{% include alert_warning.html prefix="IMPORTANT:" text="If you're deleting a page, this will result in a 404 for the previous URL. Please make sure that you check any linked items and create necessary redirects if applicable." %}
 
-1. Go to **Content**.
-2. Right-click the node you wish to delete and select **Delete**. [View](images/delete-node-tree-menu.png)
-3. Alternatively, click **Actions** in the top-right corner of the screen and select **Delete**. [View](images/delete-node-action-menu.png)
-4. A window appears next to the section tree confirming if you want to delete the node.
-5. Click **OK**.
-6. A confirmation message appears. Click **OK** to dismiss the confirmation message.
+1. In the Content section, click ••• next to the node and select **Trash**.
+1. If the node or any of its children have dependencies, they will be listed in the modal window so the references can be corrected before officially deleting.
+1. Click **Trash** and a confirmation message will appear.
 
 ---
 
 ## How To Restore Nodes
-1. Right-click the node you wish to restore from the Recycle Bin and select **Restore**. Alternatively, click ••• next to the node in the Recycle Bin and select **Restore**. [View](images/recycle-bin-restore-menu.png)
-1. You can also click **Actions** in the top-right corner of the screen and select **Restore**.
-1. A window appears next to the section tree confirming if you want to restore the node.
-1. Click **Restore**.
-1. A confirmation message appears. Click **OK** to dismiss the confirmation message.
+1. Navigate to the node you wish to restore from the Recycle Bin, click ••• and select **Restore**.
+1. In the confirmation window, click **Restore** and a confirmation will appear.
 
 When a content node has been restored, it will be in an unpublished state. In order to display a restored content page on the website, navigate to the page and click **Save and publish**.
 
 ---
 
 ## How To Empty The Recycle Bin
-If you are confident you no longer require any nodes in the Recycle Bin, you can permanently delete it. You can delete nodes one by one or empty the Recycle Bin in one go.
+If you are confident you no longer require any nodes in the Recycle Bin, you can permanently delete it. You can delete nodes one-by-one or empty the Recycle Bin as a whole.
 
 {% include alert_warning.html prefix="IMPORTANT:" text="Deleting nodes from the Recycle Bin is permanent and you will not be able to undo this." %}
 
-1. Right-click the **Recycle Bin** and select **Empty recycle bin**. Alternatively, click ••• next to the **Recycle Bin** and select **Empty recycle bin**. [View](images/recycle-bin-menu.png)
-2. A window appears next to the section tree confirming if you want to empty the recycle bin.
-3. Click **OK**.
+1. Click ••• next to the **Recycle Bin** node and select **Empty Recycle Bin**.
+2. In the confirmation window, click **Empty Recycle Bin** and a confirmation will appear.
 
 ---
 
-## Saving and Publishing Options
-There are different options for saving and publishing pages. The options vary depending on whether you’re still in the process of editing the page or have completed your edits and wish to publish your changes.
+## Saving & Publishing Options
+There are different options for saving and publishing nodes. The options vary depending on whether you’re still in the process of editing the content or have completed your edits and wish to publish your changes.
 
-### Save and Preview
-The **Save and preview** button allows you to save your changes and preview them before publishing the changes to the live site. The **Preview** feature shows you how the page will look once it is published. This **Save and preview** feature only saves your page and does not publish your content to the live site.
+### Save And Preview
+The **Save and preview** button allows you to save your changes and preview them before publishing to the live site. The preview feature shows how the page will look once it is published. NOTE: The Save and preview feature only saves your changes, it does not publish to the live site.
 
 ### Save
-The **Save** button is used for saving the page without publishing the changes to the live site. The **Save** feature is especially useful if you are working on changes over a period of time as you can save your changes frequently to prevent losing any data.
+The **Save** button is used to save changes made to the node without officially publishing to the live site. The Save feature is especially useful if you are working on changes over a period of time as you can save your changes frequently to prevent losing any data.
 
-### Save and Publish
-The **Save and publish** button is used to publish a previously saved page to the live website or to publish a page without previewing it. The **Save and publish** feature will save and publish the page to your live website.
+### Save And Publish
+The **Save and publish** button is used to publish any changes made to the node to the live website right away.
 
-### Publish with Descendants
-The **Publish with descendants** button allows you to publish the current page and all the content linked to this page to the live site. Using this option, you can publish the current parent page and its child nodes, previously published, and unpublished content items.
-
-To publish the node with descendants, follow these steps:
+### Publish With Descendants
+The **Publish with descendants** option allows you to publish the current node and all the content linked to it. Using this option, you can publish the current parent node and all of its child nodes, including previously-published and unpublished items.
 
 1. Navigate to the page you want to publish.
-1. Select the **arrow** next to the Save and Publish button.
+1. Select the arrow next to the Save and Publish button.
 1. Select **Publish with descendants**.
 1. Toggle the option to **Include unpublished content items** if you wish to. This option includes all unpublished content items for the selected page and the available linked pages.
 
 ---
 
-## Unpublishing Pages
-The Unpublish button allows you to unpublish a page if you do not want a page to be publicly visible and do not want to delete it.
+## Unpublishing Nodes
+The Unpublish option allows you to unpublish a page if you do not want a page to be publicly visible and do not want to delete it.
 
-### How To Unpublish A Page
-{% include alert_warning.html prefix="IMPORTANT:" text="This action will result in a 404 for the previous node URL. Please make sure that you check any linked items and create necessary redirects." %}
+### How To Unpublish A Node
+{% include alert_warning.html prefix="IMPORTANT:" text="If you're unpublishing a page, this will result in a 404 for the previous URL. Please make sure that you check any linked items and create necessary redirects if applicable." %}
 
-1. Navigate to the page you want to unpublish.
-2. Select the **arrow** next to the Save and Publish button.
-3. Select **Unpublish**.
+1. Navigate to the node you want to unpublish.
+2. Click the menu arrow next to the **Save and publish** button and select **Unpublish**.
+3. If the node or any of its children have dependencies, they will be listed in the modal window so the references can be corrected before officially unpublishing.
+4. Click **Unpublish**.
 
 ---
 
 ## Schedule Publishing Options
-The Schedule button allows you to set a time and a date for when your page should be published. With this option, you can continue working on your edits and the site will automatically be published at the time and date it was scheduled to.
+The scheduling options allow you to set a date and time for when your page should be published or unpublished. With this option, you can continue working on your edits and the node will automatically publish/unpublish at the date and time it was scheduled.
  
-{% include alert_note.html prefix="NOTE:" text="The schedule date time is in your time zone as a content editor." %}
+{% include alert_note.html prefix="NOTE:" text="The schedule date/time is in your local time zone as a content editor." %}
 
 ### How To Set Up Scheduled Publishing
-1. Navigate to the page you want to publish.
-1. Select the **arrow** next to the Save and publish button.
-1. Select **Schedule**.
-1. In the **Scheduled Publishing** window, set the date and time in the **Publish** at field.
-1. Select Schedule.
-1. You can also unpublish your page by setting the date and time using the **Schedule** feature.
+1. Navigate to the node you want to schedule for publish.
+1. Click the menu arrow next to the **Save and publish** button and select **Schedule publish**.
+1. Set the date and time in the **Publish at** at field.
+1. Click **Schedule publish**.
 
 ### How To Set Up Scheduled Unpublishing
-1. Navigate to the page you want to unpublish.
-1. Select the **arrow** next to the Save and Publish button.
-1. Select **Schedule**.
-1. In the **Scheduled Publishing** window, set the date and time in the **Unpublish** at field.
-1. Select **Schedule**.
+1. Navigate to the node you want to schedule to unpublish.
+1. Click the menu arrow next to the **Save and publish** button and select **Schedule publish**.
+1. Set the date and time in the **Unpublish at** at field.
+1. Click **Schedule publish**.
 
 ---
 
 ## Audit Trail
-Within the **Info** content app for pages you can find the **Audit Trail** in the **History** section. Here, you can get a quick overview of the actions performed on that node, by whom, when and any additional comments.
-
-The Audit Trail is useful to find out who made changes on a certain date.
-
-### How To View The Audit Trail
-1. Go to the **Content** section.
-1. Navigate to the page you wish to see the audit trail.
-1. Go to the **Info** tab.
+On the **Info** tab of a node, you can find the audit trail in the **History** section. Here, you can get a quick overview of the actions performed on that node, by whom, when, and any additional comments. The history is useful to find out who made changes on a certain date.
 
 ---
 
 ## Version Management
-Umbraco allows you to work with multiple versions of the same page. All previously saved pages are stored in a version history list.
+Umbraco allows you to work with multiple versions of the same node. All previously-saved nodes are stored in a version history list.
 
 ### How To Compare Versions
-1. Navigate to the page whose versions you wish to view.
+1. Navigate to the node whose versions you wish to view.
 1. Go to the **Info** tab.
-1. Click on the **Rollback** button in the **History** section.
-1. The Rollback window opens. Select a version you wish to compare with.
-1. After selecting the version, a comparison of the current page with the version you selected is displayed. The text highlighted in red and striked-out will not appear in the selected version and the text highlighted in green means the text that will be added, should you choose to rollback to that version of the page.
+1. Click the **Rollback** button in the **History** section.
+1. Select a version you wish to compare with.
+1. After selecting the version, a comparison of the current page with the version you selected will display. The text highlighted in red and striked-out will not appear in the selected version and the text highlighted in green means the text that will be added, should you choose to rollback to that version of the page.
 
 ### How To Rollback To A Previous Version
-1. Navigate to the page whose versions you wish to view.
+1. Navigate to the node whose versions you wish to view.
 1. Go to the **Info** tab.
-1. Click on the **Rollback** button in the **History** section.
-1. The Rollback window opens. Select a version of the page you wish to Rollback to.
+1. Click the **Rollback** button in the **History** section.
+1. Select the version you wish to rollback to.
 1. Click **Rollback** to proceed with the changes. Your content has now been rolled back to the selected version of the page and is saved as a **Draft** version.
-1. To publish the draft version, click **Save and publish**.
+1. To publish the draft, click **Save and publish**.
